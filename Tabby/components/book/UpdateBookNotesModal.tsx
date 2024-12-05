@@ -28,6 +28,7 @@ const UpdateBookNotesModal = ({ visible, notes, onClose, onUpdateNotes }: Update
                             <Text className="text-lg text-black">Update Notes</Text>
                             <TextInput
                                 value={newNotes}
+                                placeholderTextColor="#C0C0C0"
                                 onChangeText={setNewNotes}
                                 placeholder="Enter new notes"
                                 multiline
